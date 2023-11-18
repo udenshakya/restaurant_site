@@ -1,0 +1,30 @@
+.categories{
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+}
+.categories button{
+    margin:0 20px;
+    margin-bottom: 10px;
+}
+
+.categories button:hover{
+    cursor: pointer;
+    background-color: red;
+    color: white;
+    border-radius: 20px;
+}
+
+
+
+.search input{
+    border-radius: 5px;
+    font-size: 16px;
+    height: 40px;
+    border: 1px solid red;
+    padding: 0 10px;
+}
+
+.card{
+    display: flex;
+}
