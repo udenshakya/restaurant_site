@@ -26,8 +26,7 @@ const Hero = () => {
           <div className="tag">50% Off on All Products</div>
           <h1>Enjoy Your Delicious Food</h1>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-            Voluptates, iste corporis tempore necessitatibus inventore ex?
+          We believe that every meal should be an experience—a symphony of flavors, textures, and memories. Nestled in the heart of downtown, our charming eatery invites you to step inside and savor life’s simple pleasures.
           </p>
           <Link to='/menu' className="explore_btn">Explore Now</Link>
         </div>
@@ -37,28 +36,28 @@ const Hero = () => {
           <img src={discount} alt="discount" />
           <div className="feature_content">
             <h3>Discount Voucher</h3>
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+            Get exciting discount vocher with every purchases .
           </div>
         </div>
         <div className="feature">
           <img src={fresh} alt="fresh" />
           <div className="feature_content">
             <h3>Fresh Healthy Food</h3>
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+            Every ingredients are fresh and healthy to offer best quality.
           </div>
         </div>
         <div className="feature">
           <img src={delivery} alt="delivery" />
           <div className="feature_content">
             <h3>Fast Home Delivery</h3>
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+            We deliver fresh, delicious food right at your at your doors.
           </div>
         </div>
       </section>
       <div className="divider" ></div>
       <div className="menu" id="menu">
-        <div className="tag" >Our Menu</div>
-        <h2>Explore Our Menu</h2>
+        <Link to={"/menu"} className="tag" >Our Menu</Link>
+        <h2 >Explore Our Menu</h2>
 
         <div className="grid">
           <div className="item1">

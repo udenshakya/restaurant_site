@@ -9,12 +9,11 @@ const Navbar = () => {
     <>
     <nav>
       <div className="navigation container">
-        <div className="logo_container">
+        <Link to={"/"} className="logo_container">
           <img src={logo} alt="logo" />
-        </div>
+        </Link>
         <div className="bar_icon">
-          <i className="fas fa-bars"></i>
-          <Link to="/menu">Our Menu</Link>
+          <Link to="/menu" className='link'>Our Menu</Link>
         </div>
       </div>
     </nav>

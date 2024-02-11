@@ -22,8 +22,19 @@
     font-weight: 400;
   }
   .explore_btn {
-    background: #ffc066;
+    background-color: #23d252;
     align-self: flex-start;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+    color: black;
+    border-radius: 20px;
+    font-weight: 400;
+    transition: all 0.3s;
+  }
+
+  .explore_btn:hover{
+    background-color: rgb(17, 152, 17);
+    transition: all 0.3s;
   }
   
   /* Features Section */
@@ -63,6 +74,15 @@
   }
   .menu .tag {
     align-self: center;
+    border-radius: 20px;
+    text-decoration: none;
+    padding: 10px 20px ;
+    transition: all 0.3s;
+  }
+
+  .tag:hover{
+    background-color: #1f7136;
+    transition: all 0.3s;
   }
   
   .grid-image {

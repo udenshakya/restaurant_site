@@ -16,3 +16,13 @@ nav {
     font-size: 32px;
   }
   
+  .link{
+    text-decoration: none;
+    color: green;
+    font-weight: 500;
+  }
+
+  .link:hover{
+    color: rgb(71, 228, 71);
+    transition: all 0.5s;
+  }
