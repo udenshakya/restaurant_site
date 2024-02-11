@@ -4,7 +4,7 @@ import "./Menu.css";
 import { useState, useEffect } from "react";
 import Searchresult from "./Searchresult";
 
-export const BASE_URL = "http://localhost:9000";
+export const BASE_URL = "https://restaurant-server-6q5p.onrender.com";
 
 const Menu = () => {
   const [data, setData] = useState(null);

@@ -17,7 +17,7 @@ const Searchresult = ({ data }) => {
                     <h3>{name} </h3>
                     <p>{text} </p>
                 </div>
-                <button>${price.toFixed(2)} </button>
+                <Button>${price.toFixed(2)} </Button>
             </div>
 
               </Foodcard>
@@ -66,6 +66,7 @@ border: 0.2px solid white;
 
 display: flex;
 padding: 8px;
+
 .food_info{
     display: flex;
     flex-direction: column;
@@ -73,3 +74,7 @@ padding: 8px;
     align-items: end;
 }
 `;
+
+const Button = styled.button`
+  border-radius: 20px;
+`
